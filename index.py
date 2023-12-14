@@ -13,7 +13,7 @@ jan.attributes('-alpha', 0.9)
 
 
 #Carregar Imagem
-logo = PhotoImage(file="Icons/apple.png")
+logo = PhotoImage(file="Icons/logo.png")
 
 #Widgets
 LeftFrame = Frame(jan, width=250, height=300, bg="MIDNIGHTBLUE", relief="raise")

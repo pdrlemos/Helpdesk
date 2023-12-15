@@ -17,11 +17,11 @@ def send_message():
     u = user_entry.get()
     user = Label(chat_bg,height=1,width=64,bg='#a6a6a6',fg='black', text=u+' <Voce ',font=12,anchor='w')
     user.place(x=xi,y=yi)
-    if 'ola' in u:
-        bot = Label(chat_bg,height=1, width=64, bg='#a6a6a6', fg='black', text=' Bot> Ola', font=12,anchor='w')
+    if 'servicos' in u:
+        bot = Label(chat_bg,height=1, width=64, bg='#a6a6a6', fg='black', text=' Bot> TI, Marketing, adm, tesouraria, gerencia', font=12,anchor='w')
         bot.place(x=xi, y=yi+25)
-    elif 'como vai voce?' in u:
-        bot = Label(chat_bg,height=1, width=64, bg='#a6a6a6', fg='black', text=' Bot> Estou bem', font=12, anchor='w')
+    elif 'gerencia' in u:
+        bot = Label(chat_bg,height=1, width=64, bg='#a6a6a6', fg='black', text=' Bot> Voce nao tem acesso a este servico', font=12, anchor='w')
         bot.place(x=xi, y=yi + 25)
     elif u == 'limpar':
         clear_message()
